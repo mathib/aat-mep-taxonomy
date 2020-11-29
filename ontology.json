@@ -30,6 +30,9 @@
     "@value" : "KU Leuven"
   } ]
 }, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -92,6 +95,9 @@
 }, {
   "@id" : "https://w3id.org/con-tax/components/aat-mep",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://opendatacommons.org/licenses/by/1-0/"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@id" : "_:genid1"
   } ],

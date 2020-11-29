@@ -29,6 +29,7 @@ contax:ConstructionComponent
 <https://w3id.org/con-tax/components/aat-mep>
   rdf:type voaf:Vocabulary ;
   rdf:type owl:Ontology ;
+  cc:license <https://opendatacommons.org/licenses/by/1-0/> ;
   dcterms:creator [
       rdf:type vcard:Individual ;
       vcard:family-name "Bonduel" ;
